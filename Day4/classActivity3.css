@@ -1,0 +1,86 @@
+.tittle{
+    background-color: burlywood
+    
+}
+
+.dubai1, .dubai2, .dubai3 {
+
+    height: 500px;
+    width: 400px;
+    margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.section{
+    position: relative;
+}
+
+.dubai1{
+    filter: invert(10%);
+}
+
+.dubai2{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.dubai3{
+    background-image: linear-gradient(rgb(171, 31, 31), blue pink);
+}
+
+
+.pos{
+    position: absolute;
+    bottom: 27%;
+    left: 11%;
+   
+    width: 20%;
+    
+    border: ridge whitesmoke;
+    color: rgb(7, 7, 7);
+    
+    padding: 2px;
+    font-size: 20px;
+    filter: invert(10%);
+}
+
+.pos2{
+    position: absolute;
+    bottom: 45%;
+    right: 40%;
+   
+    width: 20%;
+    background-color: rgb(76, 144, 171);
+    border: ridge lightblue;
+    color: black;
+    padding: 2px;
+    font-size: 20px;
+}
+.div3{
+    position: absolute;
+    bottom: 45%;
+    right: 10%; 
+    width: 20%;
+    color: rgb(10, 9, 9);
+   
+    font-size: 20px;
+}
+.paradubai1{
+    position: absolute;
+   bottom: 230%;
+    right: 15%; 
+    width: 10%;
+    color: rgb(15, 14, 14);
+   
+    font-size: 18px;
+}
+
+.paradubai2{
+    position: absolute;
+   bottom: 230%;
+   left: auto;
+    width: 10%;
+    color: rgb(15, 14, 14);
+   
+    font-size: 18px;
+}

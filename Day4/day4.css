@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+.name{background-color: chartreuse;}
+.image1{width: 500px;}
+.image2{width: 60%;}
+/* This is a comment  for section 1*/
+.container{background-color: aqua; padding-top: 3em;}
+
+.tittle{border: solid 5px; text-align: center;
+background-color: beige; padding: 1em; width: 80%; margin: auto;
+box-shadow: 10px 10px 5px gray; margin: 2em;
+
+}
+.image1foggy, .image2lake, .image3snow, .image4light{width: 45%;}
+.image1foggy{border-radius: 50px; margin-right: 5%;}
+.image2lake{border-radius: 50%;}
+.image3snow{border: ridge 10px brown; padding: 1em;}
+.image4light{box-shadow: 0px 0px 20px 10px red; 
+    margin-left: 1em;
+}
+.QCClink{background-color: darkorange; color: darkgreen;
+display: block;  width: 60%; font-size: 2em; padding: 1em; text-align: center;
+}
+
+.QCClink:hover{background-color: deeppink;}
+
+/* naviagtion tabs*/
+.link{
+    text-decoration: none; background-color: beige;
+    display: block;
+    border: solid 1px;
+    padding: 1em;
+    text-align: center;
+    width: 50%;
+    color: blueviolet;
+}
+/* Vertical is for removing bullet points*/
+.vertical{list-style-type: none;}
+.link.hover{
+    background-color: bisque;
+    color: pink;
+    border: solid 1px;
+}
+.horizontal{ background-color: coral;}
+
+.link2:hover{
+    background-color: aquamarine;
+display: inline-block;
+padding: 1em 2em
+}
+/* Position */
+
+.pos{
+border: ridge 5px chocolate;
+position: relative;
+}
+.position_img{
+    width: 100%;
+    display: block;
+}
+.para1{
+    position:absolute;
+    top: 10px;
+    background-color: rgb(141, 27, 27);
+    text-align: center;
+}
+/* sticky notes*/
+.stickyH1{
+    background-color: greenyellow;
+    padding: 1em;
+    text-align: center;
+    position:sticky;
+    bottom: 0px;
+}
+.zoom{
+    position: relative;
+    border: outset 10px tomato;
+    width: 50%;
+}
+.zimage1,.zunage2 {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.blur1, .blur2, .inverted1, .inverted2{
+
+    width: 30%;
+    margin-left: 3%;
+}
+.blur1{
+    filter: blur(7px);
+}
+.inverted1{
+    filter: invert(20%);
+}
+.inverted2{
+    filter: invert(100%);
+}
