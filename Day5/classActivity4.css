@@ -1,0 +1,168 @@
+.tittle{
+    background-color: blanchedalmond;
+}
+
+.nature{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    border: 1em;
+   left: 1em;
+   margin: auto;
+   width: 100%; display: block;
+
+}
+
+
+.river{
+    position: absolute;
+    bottom: 50%;
+   left: 10%;
+   color: greenyellow;
+   font-size: xx-large;
+   animation: riversign 2s forwards ease-in
+} 
+.boat{
+
+  width: 10%;
+  bottom: 10%;
+  position: absolute;
+  animation: zoomboat 3s forwards ease-in ;
+}
+
+.bird1{
+  opacity: 0;
+    position: absolute;
+    top: 10%;
+    right: 1em;
+    width: 15%;
+    animation: slidebirds 10s backwards ease-in;
+  
+}
+  
+  
+.bird2{
+  opacity: 0;
+    position: absolute;
+    bottom: 3%;
+    right: 13%;
+    width: 15%;
+    animation: slidebirds 10s backwards ease-in;
+}
+
+.bird3{
+  opacity: 0;
+    position: absolute;
+  bottom: 10%;
+  right: -2%;
+  width: 15%;
+  animation: slidebirds 10s backwards ease-in;
+    
+}
+.bird4{
+  opacity: 0;
+    position: absolute;
+  width: 5%;
+  animation: slidebirds 10s backwards ease-in; 
+ 
+
+}
+.bird5{
+  opacity: 0;
+    position: absolute;
+  width: 9%;
+  right: 2%;
+  left: 25%;
+  animation: slidebirds 10s backwards ease-in; 
+}
+.bird6{
+  opacity: 0;
+    position: absolute;
+  width: 15%;
+  bottom: 20%;
+  left: 10%;
+  animation: slidebirds 10s backwards ease-in;
+}
+.bird7{
+  opacity: 0;
+    position: absolute;
+  width: 13%;
+  bottom: 22%;
+  left: 25%;
+  animation: slidebirds 10s backwards ease-in;
+}
+.bird8{
+  opacity: 0;
+    position: absolute;
+  width: 9%;
+  bottom: 35%;
+  left: 40%;
+  animation: slidebirds 10s backwards ease-in; 
+}
+.bird9{
+  opacity: 0;
+    position: absolute;
+  width: 13%;
+  bottom: 45%;
+  right: 40%;
+  animation: slidebirds 10s backwards ease-in; 
+}
+.bird10{
+  opacity: 0;
+    position: absolute;
+  width: 15%;
+  bottom: 5%;
+  right: 40%;
+  animation: slidebirds 10s backwards ease-in;
+}
+
+.bird11{
+  opacity: 0;
+    position: absolute;
+  width: 8%;
+  top: 12%;
+  right: 15%;
+  animation: slidebirds 10s;
+  animation-fill-mode: backwards backwards ease-in;
+}
+
+.bird12{
+  opacity: 0;
+    position: absolute;
+  width: 8%;
+  top: 25%;
+  right: 20%;
+  animation: slidebirds 10s backwards ease-in;
+    
+}
+@keyframes slidebirds {
+     70% { display: none; visibility: hidden; }
+    20%{ transform: translate(10,0);}
+    70%{transform: translate(30%,0% );}
+    100%{transform: translate(70%,0% );} 
+    100%{opacity: 1;};
+   
+  100%{ scale: 0;}
+	60%{ filter: sepia(100%);}
+    
+    
+   
+}
+
+@keyframes zoomboat{
+  10%{transform: scale(1.5); filter: sepia(100%);}
+  60%{ filter: sepia(100%);}
+  100%{ scale: 0;}
+
+}
+
+@keyframes riversign {
+ 
+  100% {
+    visibility: visible; color: gold;
+  }
+  10%{transform: scale(1.5); filter: sepia(100%);}
+  60%{ filter: sepia(100%);}
+  100%{ scale: 0;}
+	
+}
