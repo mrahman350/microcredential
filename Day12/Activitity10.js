@@ -41,7 +41,7 @@ n2.className='bgBlue'
 let list = document.querySelectorAll('ul')[2]
 
 // Example 12
-let myPara = document.childElement('p')
+let myPara = document.createElement('p.')
 let mySentence = document.createTextNode('Append paragraph')
 myPara.appendChild(mySentence)
 let newP = document.querySelector('.d')
@@ -55,5 +55,5 @@ let parks = document.querySelector('.nyc')
 parks.insertAdjacentElement('afterbegin', subtitle)
 
 // Example 14
-let par1 = document.querySelector('.p1')
+let part1 = document.querySelector('.p1')
 part1.remove()
