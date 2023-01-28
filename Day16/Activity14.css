@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+
+/* Menu */
+.openMenu{
+    background-color: aquamarine;
+    border: none;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.openMenu:hover{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+.openMenu:after{
+    content: '\26BD';
+    float: right;
+
+}
+
+.menu{
+    background-color:darkorange ;
+    color: whitesmoke;
+    transition: ease-in-out 1s;
+    opacity: 0;
+}
+.menu a{
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: 1px beige solid;
+}
+.menu a:hover{
+    background-color: lightblue;
+}
+
+.active{
+    background-color: darkblue;
+    color: whitesmoke;
+
+}
+.active:after{
+   content: '\2715';
+  
+}
+.openClose{
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+/* Forms */ 
+.submit1{
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}

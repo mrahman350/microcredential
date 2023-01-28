@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 14 - Mohammed Rahman</title>
+    <link rel="stylesheet" href="Activity14.css">
+</head>
+<body>
+    <!--Example like Menu bar in a website-->
+  
+
+    <h1>Mohammed Rahman</h1>
+
+    <button class="openMenu">
+        Menu
+    </button>
+
+    <nav class="menu">
+        <a href="www.qcc.cuny.edu">QCC</a>
+       <a href="www.cuny.edu">CUNY</a>
+    </nav>
+<h1>Forms</h1>
+<form action="formsent.html" method="post">
+    <fieldset>
+         <legend>Enter  personal info</legend>
+    <input type="submit" value="Submit" class="submit1">
+
+    <p>Enter Usernmame</p>
+    <input type="text" name="Username" maxlength="20" id="user">
+    <p>Enter a password</p>
+    <input type="password" name="password" placeholder="enter a password">
+
+    <p>Gender</p>
+<input type="radio" name="gender" id="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label>
+
+<p>Hobbies?</p>
+<label for="Swimming">Swimming</label>
+<input type="checkbox" name="hobbies" id="swimming">
+<label for="reading">Reading </label>
+<input type="checkbox" name="hobbies" id="reading">
+</fieldset>
+</form>
+<fieldset>
+<form action="https://www.youtube.com/results">
+<input type="search" placeholder="Type your search" name="search_query">
+<button>Search youtube</button>
+</fieldset>
+</form>
+
+<form action="https://www.google.com/search">
+    <fieldset>
+<input type="search" placeholder="Search Google" name="q">
+<button>Search in Google</button>
+</fieldset>
+</form>
+
+<fieldset>
+    <legend>Appoinment</legend>
+    <label for="date">Select Date</label>
+    <input type="date" id="date" name="date">
+    <label for="email">Email adress</label>
+    <input type="email" name="email" id="email">
+</fieldset>
+    <script src="Activity14.js"></script>
+ 
+</body>
+</html>
