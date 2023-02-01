@@ -12,7 +12,7 @@ msg=displaymsg()
 // var and let are the same. Var is old and let is new
 
 var fullmoon = true;
-var species = human;
+var species = 'human';
 if (fullmoon){
     var species = 'wolf'
     console.log(`Full moon! Lupin is a ${species}`)
