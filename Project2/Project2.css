@@ -1,0 +1,362 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+
+.tophomepage{
+    padding: 1em;
+   border: 1em rgb(57, 57, 151) solid; 
+   width: 100%;
+    height: 15em;
+}
+.tophomepage img{
+    width: 100%;
+}
+.tophomepage:hover{
+    background-color: indigo;
+    border: 1em;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+
+.linkdiv{
+   border: 2em;
+   text-align: right;
+   font-size: 25px;
+   margin-top: 0.5em;
+}
+ .ShoppingCart{
+   border: 0px solid;
+    top: 45%;
+  right: 2rem;
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    width: 20rem;
+    background-color: rgb(218, 214, 214);
+    display: none;
+    position: absolute;
+  
+}
+
+.ShoppingCart div{
+    width: 100%;
+    height: 100%;
+    position: flex;
+}
+
+.ShoppingCart .box{
+    border: 0px solid blue;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 1rem 0;
+    
+}
+.ShoppingCart .box .bin{
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    cursor: pointer;
+    color: var(--dark-color);
+    transform: translate(-50%);
+}
+.ShoppingCart .box .content h3{
+font-size: 0.7rem;
+text-align: center;
+
+}
+.active{
+    display: block;
+}
+
+.total{
+   font-size: 1.5rem;
+   padding: 1rem;
+   text-align: center;
+   color: var(--black);
+ }
+
+ .btn{
+    margin-top:1rem ;
+    display: inline-block;
+    padding: .2rem 2rem;
+    font-size: 1.2rem;
+    border: 1px solid var(--black);
+    color: black;
+    border-radius: .5rem;
+    background-color: rgb(145, 129, 86);
+    cursor: pointer;
+ }
+ .ShoppingCart .btn{
+    display:block ;
+    text-align: center;
+    margin: 1rem 0;
+ }
+
+ .ShoppingCart.active{
+right: 2rem;
+transition: .4s linear;
+ }
+
+ .CartX{
+    position:absolute;
+    top: 0;
+   right: 0;
+    font-size: 1.5em;
+    padding: 1em;
+ }
+ .CartX:hover{
+    background-color: lightgray;
+    transition: ease-in-out 0.3s;
+    color: whitesmoke;
+    
+     }
+
+.cartimg{
+    width: 20%;
+}
+
+
+
+.homepage1{
+    width:100%;
+    height:45em;
+   margin-top: 0.5em;
+}
+.products{
+    color: #ff8c04;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+}
+.p1{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-family: "Gotham SSm A","Gotham SSm B",Helvetica,Arial,sans-serif,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.img1{
+    
+    width: 100%;
+    height: 20em;
+}
+.main1{
+    display: flex;
+}
+.img1 img{
+    width: 100%;
+    
+}
+.section1{
+    text-align: center;
+   
+
+}
+.div1:hover{
+    color:firebrick;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.div1, .div2, .div3, .div4, .div5, .div6{
+width: 45%;
+margin: 3%;
+
+}
+
+.img2{
+    margin-left: 5%;
+    width: 100%;
+    height: 20em;
+}
+.img2 img{
+    width: 100%;
+}
+
+
+
+.div2:hover{
+    color:rgb(225, 177, 115);
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.img3{
+    width: 100%;
+    height: 20em;
+}
+.img3 img{
+    width: 100%;
+}
+
+.div3:hover{
+    color:cornflowerblue;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+.div4:hover{
+    color:blueviolet;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.img4{
+    margin-left: 5%;
+    width: 100%;
+    height: 20em;
+}
+.img4 img{
+    width: 100%;
+}
+.img5{
+    margin-left: 5%;
+    width: 100%;
+    height: 20em;
+}
+.img5 img{
+    width: 100%;
+}
+
+.div5:hover{
+    color:orange;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.img6{
+    margin-left: 5%;
+    width: 100%;
+    height: 20em;
+}
+.img6 img{
+    width: 100%;
+}
+
+
+.div6:hover{
+    color: rgb(174, 174, 34);
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.contact{
+    padding: 2em;
+    color: white;
+    background-color: #ff8c04;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.modalWindow, .modalWindow2, .modalWindow3, .modalWindow4, .modalWindow5, .modalWindow6{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50, 50, 50, 0.6);
+   display: none;
+
+}
+
+.modalContent, .modalContent2, .modalContent3, .modalContent4, .modalContent5, .modalContent6{
+    width: 40%;
+    height: 60%;
+    margin: 5% 20%;
+    background-color: white;
+}
+
+.modalHead, .modalHead2, .modalHead3, .modalHead4, .modalHead5, .modalHead6{
+    width: 90%;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+    border-bottom: firebrick;
+    float:left;
+    text-align: center;
+   
+}
+
+.modalHeadX, .modalHeadX2, .modalHeadX3, .modalHeadX4, .modalHeadX5, .modalHeadX6{
+    position: fixed;
+    float: right;
+    font-size: 1.5em;
+    padding: 1em;
+   
+}
+
+.modalHeadX, .modalHeadX2, .modalHeadX3, .modalHeadX4, .modalHeadX5, .modalHeadX6:hover{
+    background-color: lightgray;
+    transition: ease-in-out 0.3s;
+    color: whitesmoke;
+}
+.modalTop, .modalTop2, .modalTop3, .modalTop4, .modalTop5, .modalTop6{
+    display: flex;
+   
+}
+
+.modalbody, .modalbody2, .modalbody3, .modalbody4, .modalbody5, .modalbody6{
+    display: flex;
+    text-align:right
+}
+ .modalInfo, .modalInfo2, .modalInfo3, .modalInfo4, .modalInfo5, .modalInfo6{
+text-align: center;
+}
+.modalimg, .modalimg2, .modalimg3, .modalimg4, .modalimg5, .modalimg6{
+    text-align: center;
+}
+
+.modalimg Img{
+    width: 60%;
+    text-align: center;
+
+}
+
+.modalimg2 Img{
+    width: 60%;
+    text-align: center;
+
+}
+
+.modalimg3 Img{
+    width: 60%;
+    text-align: center;
+
+}
+
+.modalimg4 Img{
+    width: 60%;
+    text-align: center;
+
+}
+
+.modalimg5 Img{
+    width: 60%;
+    text-align: center;
+
+}
+
+.modalimg6 Img{
+    width: 60%;
+    text-align: center;
+
+}
+
+

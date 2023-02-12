@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+</head>
+
+<h1 align="center" style="color: brown;">Stay Healthy With Our Protein Bars</h1>
+<body style="background-color: antiquewhite;">
+
+    <h2>Your Oder Confirmation #34XYZ123456</h2>
+    <p>First Name: <span id="f_name"></span></p>
+    <p>Last Name: <span id="l_name"></span></p>
+    <p>Shipping Address: <span id="add_name"></span></p>
+    <p>City: <span id="city_name"></span></p>
+    <p>Zip Code: <span id="zip_name"></span></p>
+   
+
+
+
+
+    <script style="background-color: bisque;">
+        let printName = document.querySelector('#f_name')
+        printName.innerHTML=sessionStorage.getItem('userN')
+
+        let printlastName = document.querySelector('#l_name')
+    printlastName.innerHTML=sessionStorage.getItem('user2')
+
+    let printadd = document.querySelector('#add_name')
+    printadd.innerHTML=sessionStorage.getItem('user3')
+
+    let printcity = document.querySelector('#city_name')
+    printcity.innerHTML=sessionStorage.getItem('user4')
+
+
+    let printzip = document.querySelector('#zip_name')
+    printzip.innerHTML=sessionStorage.getItem('user5')
+        
+            </script>
+
+<a href="Project2.html">Back To Home</a>
+            
+           
+        
+
+
+
+</body>
+</html>

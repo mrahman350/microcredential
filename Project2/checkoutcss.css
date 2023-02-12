@@ -1,0 +1,23 @@
+.div1, .div2, .div3, .div4{
+    padding: 0.5em;
+    background-color:rgb(242, 234, 223)
+
+}
+
+.submit{
+    display: block;
+    text-align: center;
+}
+
+.cartimg{
+    width: 10%;
+   padding: 0.5em;
+   position:relative;
+   display: flex;
+}
+.total{
+    padding: 0.5em;
+   text-decoration: overline;
+    color: black;
+    font-weight: bold;
+}

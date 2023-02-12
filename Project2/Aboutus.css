@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+
+
+
+.section1{
+    display: flex;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.divright{
+    width: 50%;
+    margin-left: 2%;
+    letter-spacing: -0.5px;
+    color: coral;
+}
+
+.aboutus{
+    color: brown;
+}
